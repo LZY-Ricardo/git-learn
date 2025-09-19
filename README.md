@@ -5,3 +5,6 @@ git branch 查看所有本地分支
 git branch -r 查看所有远程分支
 git branch -a 查看所有分支
 git branch -b xxx 创建xxx本地分支并切换到该分支
+
+
+- 本地分支名需要和远程分支名一致 才能推送
