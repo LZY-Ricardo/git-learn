@@ -14,3 +14,6 @@ git reset --hard HEAD^ 回退到上一个版本
 git reset --hard HEAD~n 回退到前n个版本
 git reset --hard 版本号 回退到指定版本
 git reflog 查看所有曾经执行过的 git 操作
+
+git reset HEAD 文件名 将文件从暂存区撤回到工作区
+git reset --soft HEAD^ 将此次的 commit 撤销, 文件回到暂存区
