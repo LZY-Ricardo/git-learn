@@ -8,3 +8,9 @@ git branch -b xxx 创建xxx本地分支并切换到该分支
 
 
 - 本地分支名需要和远程分支名一致 才能推送
+git log 查看提交历史版本号
+git log --oneline 查看提交历史简洁版
+git reset --hard HEAD^ 回退到上一个版本
+git reset --hard HEAD~n 回退到前n个版本
+git reset --hard 版本号 回退到指定版本
+git reflog 查看所有曾经执行过的 git 操作
